@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data >
+        <variable
+            name="myclick"
+            type="com.mygeme.yindaisi.mygeme.activity.MainActivity.myClickListener"/>
+
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/meimei07"
+            android:alpha="0.7"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/but_showmyview"
+                android:layout_width="@dimen/dimen_120"
+                android:layout_height="wrap_content"
+                android:background="@drawable/but_background"
+                android:text="@string/showmywab"
+                android:layout_marginTop="@dimen/dimen_35"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:onClick="@{myclick}"
+                />
+            <WebView
+                android:id="@+id/lin_show"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_200"
+                android:layout_alignParentBottom="true"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</layout>

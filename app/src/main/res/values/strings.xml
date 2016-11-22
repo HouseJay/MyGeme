@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyGeme</string>
+
+    <string name="main_first">开始界面</string>
+    <string name="main_remober_start">记忆开始</string>
+    <string name="main_start">开始</string>
+    <string name="main_setting">设置</string>
+    <string name="main_out">退出</string>
+
+    <string name="showmywab">展示我的WabView</string>
+    <string name="goback">回到之前的页面</string>
+</resources>
