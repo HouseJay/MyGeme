@@ -8,6 +8,7 @@
 
     </data>
     <FrameLayout
+        android:id="@+id/frl_boss"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
@@ -30,6 +31,7 @@
                 android:layout_marginLeft="@dimen/dimen_15"
                 android:onClick="@{myclick}"
                 />
+
             <WebView
                 android:id="@+id/lin_show"
                 android:layout_width="fill_parent"

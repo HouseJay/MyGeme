@@ -13,7 +13,6 @@
         <attr name="min_r" format="dimension"/>
         <attr name="max_alpha" format="dimension"/>
         <attr name="min_alpha" format="dimension"/>
-
     </declare-styleable>
 
 </resources>
